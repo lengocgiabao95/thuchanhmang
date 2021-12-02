@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function giatriMin(arr) {
+            if(arr.length == 0) {
+                alert('mang rong~');
+                
+                
+            }
+            
+            let min = arr[0];
+            for( let i = 1 ; i < arr.length ; i++ ) {
+                if( arr[i] < min ) {
+                    min = arr[i];
+                }
+                
+            }
+            return min;
+            
+            
+        
+
+        }
+        let arr=[10,5,8,-3,7,8];
+        let arr1=[8,9,0,10,12,14,15,6];
+        let arr3=[];
+
+        
+        let min = giatriMin(arr3);
+        alert(min + ' la gia tri nho nhat ');
+      
+    </script>
+</body>
+</html>
